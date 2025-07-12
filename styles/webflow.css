@@ -94,7 +94,7 @@ header{
 }
 .stats{
     display: flex;
-    justify-content: center;
+    justify-content:center ;
     gap: 40px;
     flex-wrap: wrap;
 }
@@ -110,9 +110,53 @@ header{
     font-size: 14px;
     color: #777;                
 }
+.star{
+    color: gold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+ .hero{
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fdfdfd;
+ }
+.hero h3{
+    font-size: 28px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.from{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.from-container{
+    background-color: white;
+    width: 300px;
+    border-radius: 5px;
+    
+    
+    text-align: left;
+}
+.reviewer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
 
-
-
+}
+.reviewer img{
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+.promo{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    text-align: center;
+}
 
 
 
